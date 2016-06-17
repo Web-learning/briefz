@@ -4,33 +4,48 @@ html, body {
   font-family: 'Libre Franklin', Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 18px; }
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   color: #FF851B;
   text-decoration: none; }
   a:hover {
-    color: #ff7702; }
+    color: #f67300; }
 
 p {
   line-height: 1.7;
   letter-spacing: .45px; }
+  p.hint {
+    color: #d7d7d7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center; }
 
 nav {
-  display: flex;
-  height: 80px;
   border-bottom: 1px solid #d7d7d7;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 3;
-  background-color: white; }
+  background-color: white;
+  padding: 20px 0; }
+  nav .contain {
+    display: flex;
+    align-items: center;
+    height: 100%; }
   nav a.nav-logo {
     font-weight: 900;
     letter-spacing: -1px;
-    font-size: 24px; }
+    font-size: 24px;
+    margin-right: auto; }
+  nav a.what {
+    font-size: 14px; }
+  nav #logo {
+    vertical-align: -9px;
+    margin-right: 8px; }
 
 #main-content {
   margin-top: 120px;
@@ -53,6 +68,9 @@ h1 {
     h1 {
       font-size: 2.4em; } }
 
+h2 {
+  margin-top: 2em; }
+
 .contain {
   margin-left: auto;
   margin-right: auto;
@@ -66,6 +84,7 @@ button {
   padding: 20px;
   background: #FF851B;
   border-radius: 5px;
+  font-weight: bolder;
   outline: none;
   color: white;
   border: 0;
@@ -76,4 +95,8 @@ button {
   letter-spacing: 1.5px; }
   button:hover {
     cursor: pointer;
-    background-color: #ff7702; }
+    background-color: #f67300; }
+  button:active {
+    transform: translateY(1.5px); }
+  button:focus {
+    outline: -webkit-focus-ring-color auto 5px; }

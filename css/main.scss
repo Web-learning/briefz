@@ -2,7 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Libre+Franklin:500,900';
 // Colors
 $orange: #FF851B;
-$darkorange: darken($orange, 5%);
+$darkorange: darken($orange, 7%);
+$lightorange: lighten($orange, 40%);
 $black: rgb(36, 36, 36);
 $lightgrey: lighten($black, 70%);
 
@@ -14,6 +15,8 @@ html, body {
     padding: 0;
     margin: 0;
     font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -26,23 +29,40 @@ a {
 p {
     line-height: 1.7;
     letter-spacing: .45px;
+    &.hint {
+        color: $lightgrey;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
 nav {
-    display: flex;
-    height: 80px;
     border-bottom: 1px solid $lightgrey;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 3;
     background-color: white;
+    padding: 20px 0;
+    .contain {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
     a.nav-logo {
         font-weight: 900;
         letter-spacing: -1px;
         font-size: 24px;
+        margin-right: auto;
+    }
+    a.what {
+        font-size: 14px;
+    }
+    #logo {
+        vertical-align: -9px;
+        margin-right: 8px;
     }
 }
 
@@ -71,6 +91,10 @@ h1 {
     }
 }
 
+h2 {
+    margin-top: 2em;
+}
+
 .contain {
     margin-left: auto;
     margin-right: auto;
@@ -85,6 +109,7 @@ button {
     padding: 20px;
     background: $orange;
     border-radius: 5px;
+    font-weight: bolder;
     outline: none;
     color: white;
     border: 0;
@@ -96,5 +121,11 @@ button {
     &:hover {
         cursor: pointer;
         background-color: $darkorange;
+    }
+    &:active {
+        transform: translateY(1.5px);
+    }
+    &:focus {
+        outline: -webkit-focus-ring-color auto 5px;
     }
 }
