@@ -126,9 +126,6 @@ button {
     &:active {
         transform: translateY(1.5px);
     }
-    &:focus {
-        outline: -webkit-focus-ring-color auto 5px;
-    }
 }
 
 // Footer

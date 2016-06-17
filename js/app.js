@@ -66,7 +66,11 @@ var briefs = [
   "Design a responsive messaging app.",
   "Design a build-your-own burrito app.",
   "Design a custom t-shirt making website.",
-  "Design the checkout flow for a liquor store's website."
+  "Design the checkout flow for a liquor store's website.",
+  "Design a build-your-own ice cream sundae app.",
+  "Design a vending maching locator.",
+  "Design an app that finds nearby dog parks.",
+  "Design an app that finds and shows ratings for local babysitters."
 ];
 
 
