@@ -66,6 +66,9 @@ h1 {
     .helper {
         color: $lightgrey;
     }
+    @media (min-width: 600px) {
+        font-size: 2.4em;
+    }
 }
 
 .contain {

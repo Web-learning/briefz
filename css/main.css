@@ -49,6 +49,9 @@ h1 {
     display: block; }
   h1 .helper {
     color: #d7d7d7; }
+  @media (min-width: 600px) {
+    h1 {
+      font-size: 2.4em; } }
 
 .contain {
   margin-left: auto;
