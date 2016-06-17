@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css?family=Libre+Franklin:500,900";
+html, body {
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 18px; }
+
+a {
+  color: #FF851B;
+  text-decoration: none; }
+  a:hover {
+    color: #ff7702; }
+
+p {
+  line-height: 1.7;
+  letter-spacing: .45px; }
+
+nav {
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background-color: white; }
+  nav a.nav-logo {
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 24px; }
+
+#main-content {
+  margin-top: 120px;
+  min-height: 40vh; }
+
+#extraStuff {
+  margin: 80px 0 80px 0; }
+
+h1 {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #242424; }
+  h1#currentBrief {
+    min-height: 250px;
+    margin-bottom: 2rem;
+    display: block; }
+  h1 .helper {
+    color: #d7d7d7; }
+
+.contain {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  width: 100%; }
+  @media (min-width: 600px) {
+    .contain {
+      max-width: 600px; } }
+
+button {
+  padding: 20px;
+  background: #FF851B;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  border: 0;
+  display: block;
+  width: 100%;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px; }
+  button:hover {
+    cursor: pointer;
+    background-color: #ff7702; }

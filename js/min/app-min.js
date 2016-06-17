@@ -1,0 +1,1 @@
+function loadBrief(){var e=briefs[Math.floor(Math.random()*briefs.length)];$("#currentBrief").text(e)}var briefs=["Design a website for a local business.","Design a mood-based music app.","Design a small banner ad for something next to you."],briefIndex=0;
