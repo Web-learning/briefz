@@ -61,7 +61,7 @@ nav {
         font-size: 14px;
     }
     #logo {
-        vertical-align: -2px;
+        vertical-align: -4px;
         margin-right: 8px;
         max-width: 28px;
     }
@@ -129,4 +129,11 @@ button {
     &:focus {
         outline: -webkit-focus-ring-color auto 5px;
     }
+}
+
+// Footer
+footer {
+    margin: 3rem 0;
+    font-size: 12px;
+    color: $lightgrey;
 }

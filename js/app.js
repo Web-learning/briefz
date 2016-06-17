@@ -41,7 +41,7 @@ var briefs = [
   "Design a landing page for your favorite athlete, musician or general human being.",
   "Redesign a website so it's more color-blind friendly.",
   "Design a poster for an event happening near you.",
-  "Design a label for a drink you love.",
+  "Redesign the label for a drink you love.",
   "Design a landing page for an event happening near you that let's people RSVP.",
   "Design a website for a local restaurant that let's people order online.",
   "Design the homepage of a website for a hotel.",
@@ -51,7 +51,12 @@ var briefs = [
   "Design a card to celebrate the next upcoming holiday.",
   "Design a landing page dedicated to any of the U.S. Presidents.",
   "Draw a minimal version of the front of your childhood home.",
-  "Redesign the logo of your favorite sports team."
+  "Redesign the logo of your favorite sports team.",
+  "Design a tour poster for your favorite musical act.",
+  "Design a video-editing app for mobile.",
+  "Design a video-edting app for the desktop.",
+  "Design a font-making app for mobile.",
+  "Design an image-editing app for the desktop and mobile."
 ];
 
 
@@ -71,9 +76,17 @@ document.body.onkeyup = function(e){
       }
 };
 // Scroll
-$('.scrollToButton').click(function () {
-       $("html, body").animate({
-           scrollTop: 0
-       }, 600);
-       return false;
-   });
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - 100
+        }, 800);
+        return false;
+      }
+    }
+  });
+});

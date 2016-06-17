@@ -44,7 +44,7 @@ nav {
   nav a.what {
     font-size: 14px; }
   nav #logo {
-    vertical-align: -2px;
+    vertical-align: -4px;
     margin-right: 8px;
     max-width: 28px; }
 
@@ -101,3 +101,8 @@ button {
     transform: translateY(1.5px); }
   button:focus {
     outline: -webkit-focus-ring-color auto 5px; }
+
+footer {
+  margin: 3rem 0;
+  font-size: 12px;
+  color: #d7d7d7; }

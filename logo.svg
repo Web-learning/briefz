@@ -1,60 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="73px" height="49px" viewBox="0 0 73 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="143px" height="127px" viewBox="0 0 143 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
+    <title>Artboard 2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M0.00815826854,0 L72.5707891,0 L72.5707891,27.6923077 L58.3355846,38.7108247 C46.1598537,48.1352412 26.4233687,48.1385503 14.2433628,38.7108247 L0.00815826854,27.6923077 L0.00815826854,0 Z" id="path-1"></path>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.5626308" height="46.5354949" fill="white">
+        <path d="M0.575115024,0 L132.424885,0 L132.424885,64.7237321 L106.558838,90.4767156 C84.4349525,112.503894 48.5728155,112.511628 26.4411623,90.4767156 L0.575115024,64.7237321 L0.575115024,0 L0.575115024,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="131.84977" height="107" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.5626308" height="46.5354949" fill="white">
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="131.84977" height="107" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
-        <ellipse id="path-5" cx="85.3923445" cy="25" rx="25.1913876" ry="25"></ellipse>
-        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50.3827751" height="50" fill="white">
+        <ellipse id="path-5" cx="158.730769" cy="47.6369863" rx="47.5" ry="47.6369863"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="95" height="95.2739726" fill="white">
             <use xlink:href="#path-5"></use>
         </mask>
-        <ellipse id="path-7" cx="25.1913876" cy="25" rx="25.1913876" ry="25"></ellipse>
-        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50.3827751" height="50" fill="white">
+        <ellipse id="path-7" cx="47.5" cy="47.6369863" rx="47.5" ry="47.6369863"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="95" height="95.2739726" fill="white">
             <use xlink:href="#path-7"></use>
         </mask>
-        <path d="M0.00815826854,0 L72.5707891,0 L72.5707891,27.6923077 L58.3355846,38.7108247 C46.1598537,48.1352412 26.4233687,48.1385503 14.2433628,38.7108247 L0.00815826854,27.6923077 L0.00815826854,0 Z" id="path-9"></path>
-        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.5626308" height="46.5354949" fill="white">
+        <rect id="path-9" x="0.575115053" y="0" width="131.84977" height="42.5068493"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="131.84977" height="42.5068493" fill="white">
             <use xlink:href="#path-9"></use>
-        </mask>
-        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.5626308" height="46.5354949" fill="white">
-            <use xlink:href="#path-9"></use>
-        </mask>
-        <rect id="path-13" x="19.2186846" y="4" width="72.5626308" height="16"></rect>
-        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.5626308" height="16" fill="white">
-            <use xlink:href="#path-13"></use>
         </mask>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-5" transform="translate(-19.000000, -4.000000)">
-            <g id="Group-2"></g>
-            <g id="Group-3" transform="translate(19.210526, 7.179487)">
-                <mask id="mask-3" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <g id="Rectangle-3" stroke="#FF851B" mask="url(#mask-2)" stroke-width="12" stroke-linejoin="round" fill="#FFE3CB">
-                    <use mask="url(#mask-4)" xlink:href="#path-1"></use>
-                </g>
-                <g id="Group-4" mask="url(#mask-3)" stroke="#FF851B" stroke-width="12" fill="#FFE3CB" stroke-linejoin="round">
-                    <g transform="translate(-19.210526, -7.179487)">
-                        <use id="Oval-1" mask="url(#mask-6)" xlink:href="#path-5"></use>
-                        <use id="Oval-1-Copy" mask="url(#mask-8)" xlink:href="#path-7"></use>
+        <g id="Artboard-2">
+            <g id="Group" transform="translate(5.000000, 11.000000)">
+                <g id="Group-2">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-9" stroke="#FF851B" mask="url(#mask-2)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF">
+                        <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-3)" stroke-linecap="round" stroke="#FF851B" stroke-width="24" stroke-linejoin="round">
+                        <g transform="translate(-36.615385, -4.397260)">
+                            <use id="Oval-5" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                            <use id="Oval-5-Copy" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                        </g>
                     </g>
                 </g>
-                <mask id="mask-11" fill="white">
-                    <use xlink:href="#path-9"></use>
-                </mask>
-                <g id="Rectangle-3" stroke="#FF851B" mask="url(#mask-10)" stroke-width="12" stroke-linejoin="round">
-                    <use mask="url(#mask-12)" xlink:href="#path-9"></use>
-                </g>
+                <use id="path-13" stroke="#FF851B" mask="url(#mask-10)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="#FFE3CB" xlink:href="#path-9"></use>
             </g>
-            <use id="Rectangle-2" stroke="#FF851B" mask="url(#mask-14)" stroke-width="10" fill="#FFE3CB" xlink:href="#path-13"></use>
         </g>
     </g>
 </svg>
