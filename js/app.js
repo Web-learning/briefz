@@ -56,7 +56,17 @@ var briefs = [
   "Design a video-editing app for mobile.",
   "Design a video-edting app for the desktop.",
   "Design a font-making app for mobile.",
-  "Design an image-editing app for the desktop and mobile."
+  "Design an image-editing app for the desktop and mobile.",
+  "Design a map of your daily commute.",
+  "Redesign the logo for the company you work for or want to work for.",
+  "Redesign the layout of your favorite coffee spot.",
+  "Design an app that helps people decide where to get lunch.",
+  "Design an app that shows people how long their commute will be.",
+  "Design a gif-making app.",
+  "Design a responsive messaging app.",
+  "Design a build-your-own burrito app.",
+  "Design a custom t-shirt making website.",
+  "Design the checkout flow for a liquor store's website."
 ];
 
 
