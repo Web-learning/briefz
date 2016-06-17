@@ -70,3 +70,10 @@ document.body.onkeyup = function(e){
        loadBrief();
       }
 };
+// Scroll
+$('.scrollToButton').click(function () {
+       $("html, body").animate({
+           scrollTop: 0
+       }, 600);
+       return false;
+   });
