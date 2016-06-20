@@ -5,7 +5,7 @@ var briefs = [
   "Design a small banner ad for something next to you.",
   "Design the album artwork for the song you last listened to.",
   "Mock up a new signup flow for a social network of your choice.",
-  "Sketch a note-taking application that let's users collaborate on writing.",
+  "Sketch a note-taking application that lets users collaborate on writing.",
   "Redesign the cover of a book you love.",
   "Please, don't design another weather app. Unless you realllly want to.",
   "Redesign the menu for your favorite local brunch spot. Show them when you're done.",
